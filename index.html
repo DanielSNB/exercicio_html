@@ -1,38 +1,246 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta htttp-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
-    <h1>Meu primeiro arquivo</h1>
-    <h2>Minha tag h2</h2>
-    <h3>Minha tag h3</h3>
-    <h4>Minha tag h4</h4>
-    <h5>Minha tag h5</h5>
-    <h6>Minha tag h6</h6>
-    <hr> />
-    <p>
-        <b>Lorem</b> <strong>ipsum </strong> <br />
-        <i>dolor</i> <em>sit</em> amet <mark>consectetur</mark>
-        <del>adipisicing</del>elit. <small>Soluta</small> <span>corrupti</span> optio atque quasi. Rerum nam voluptate illo incidunt, corporis recusandae assumenda, optio deleniti accusantium dolorum velit non, fugiat quo impedit.
-    </p>
-    <a href="https://google.com" title="Ir para o site google">Ir para o google</a>
-    <a href="tel:1133333">113333</a>
-    <a href="mailto:daniel@exemplo.com">Entre em contato por email</a>
-    <hr />
-    <blocklquote>
-        olá mundo
-    </blocklquote>
-    <address>
-        Rua teste, n 123 - cep 123456
-    </address>
-    <hr />
-    <a href="./containers.html">Ir para a página de containers</a>
-    <a href="./Listas.html">Ir para a página de Listas</a>
-    <a href="./Tabelas.html">Ir para a página de Tabelas</a>
-    <a href="./forms.html">Ir para a página de Formulários</a>
+    <header>
+    <div class="container">
+        <h1>Meu portal de notícias</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                </li>
+                <li>
+                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                </li>
+                <li>
+                    <a href="#entretenimento" title="Ir para a seção de notícias">Entretenimento</a>
+                </li>
+                <li>
+                    <a href="#tecnologia" title="Ir para a seção de notícias">Tecnologia</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+        <div class="articles">
+            <article>
+                <img src="./Media/futebol.jpg" alt="Bola de futebol no gramado" />
+                <header>
+                    <time class="creation-date">13/07/2022 às 12:35</time>
+                </header>
+                <h3>Grande clássico na noite de hoje</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./Media/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Noite do Superbowl</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./Media/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Notícia sobre a NBA</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./Media/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Notícia sobre a NBA</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+        <div class="articles">
+            <article>
+                <img src="./Media/dolares.jpg" alt="Muitos dólares" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Dólar em alta de 0.50%</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./Media/euro.jpg" alt="Várias notas de euro" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Euro em queda de 0.40%</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./Media/petroleo.jpg" alt="Extração de petróleo" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Alta no preço do barril do petróleo</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+        <div class="articles">
+            <article>
+                <img src="./Media/dolares.jpg" alt="Muitos dólares" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Dólar em alta de 0.50%</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./Media/euro.jpg" alt="Várias notas de euro" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Euro em queda de 0.40%</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./Media/petroleo.jpg" alt="Extração de petróleo" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Alta no preço do barril do petróleo</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+        </div>
+    </section>
+    <section id="entretenimento">
+        <div class="container">
+            <h2>Entretenimento</h2>
+        <div class="articles">
+            <article>
+                <img src="https://uploads.maisgoias.com.br/2024/01/0f718b14-patos-960x640.webp"  />
+                <header>
+                    <time>Publicado em: 02/01/2024 12:22</time>
+                </header>
+                <h3>Crítica: Patos! (2023)</h3>
+                <p>
+                    Confesso que minhas expectativas para “Patos!” estava muito baixa. Talvez fosse pelo fato de sua produtora Illumination ter um lado comercial tão mais forte que o artístico, e grande parte de suas obras serem piadas incessantes para conquistar o público infantil, e que ao menos para mim soa muito cansativo à partir de certo momento.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="https://portal6.com.br/wp-content/uploads/2023/12/Novo-Projeto-2023-12-22T155848.252.jpg" />
+                <header>
+                    <time>Ruan Monyel - 23 de dezembro de 2023</time>
+                </header>
+                <h3>Mamonas Assassinas: O Filme é a produção mais nostálgica do ano e chega aos cinemas em 28 de dezembro</h3>
+                <p>
+                    A equipe do Portal 6 teve a honra de assistir antecipadamente ao filme que narra a história dos cinco garotos que na década de 90 tiveram suas vidas transformadas após apostarem tudo na carreira musical e criarem a banda Mamonas Assassinas, que em apenas 8 meses deixaram sua marca no coração dos brasileiros.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="https://i.ytimg.com/vi/uYPbbksJxIg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLACA9IK0xYW9AGiLGNH4sIRPbLeLA" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Oppenheimer</h3>
+                <h4>Sinopse</h4>
+                <p>
+                    LOppenheimer é um filme histórico de drama dirigido por Christopher Nolan e baseado no livro biográfico vencedor do Prêmio Pulitzer, Prometeu Americano: O Triunfo e a Tragédia de J. Robert Oppenheimer, escrito por Kai Bird e Martin J. Sherwin. 
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+        </div>
+    </section>
+    <section id="tecnologia">
+        <div class="container">
+            <h2>Tecnologia</h2>
+        <div class="articles">
+            <article>
+                <img src="https://tm.ibxk.com.br/2024/02/06/06120917679125.jpg?ims=704x264"  />
+                <header>
+                    <time>06/02/2024 às 15:45</time>
+                </header>
+                <h3>Nintendo Switch virou o console mais vendido da história no Japão</h3>
+                <p>
+                    Divulgado oficialmente nesta terça-feira (6), o relatório fiscal mais recente da Nintendo revela que ela já vendeu 33.340.000 unidades do Nintendo Switch no Japão. Com isso, o aparelho se tornou oficialmente o console mais vendido de toda a história do país. Anteriormente, o posto pertencia à linha Nintendo DS, que tinha 32,98 milhões de cópias comercializadas.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="https://tm.ibxk.com.br/2024/02/06/06111155084091.jpg?ims=704x264" />
+                <header>
+                    <time>06/02/2024 às 14:15  </time>
+                </header>
+                <h3>Steam recebe 6 novos jogos grátis! Conheça e resgate agora</h3>
+                <p>
+                    Prepare-se para uma semana repleta de aventuras e desafios com os mais recentes lançamentos na Steam. Estes jogos gratuitos trazem uma variedade de experiências, desde experiências hilariantes até jornadas épicas de construção de cidades, tudo com a emoção de um roguelike e a ação de um bullet hell.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="https://tm.ibxk.com.br/2024/02/07/07121153356157.jpg?ims=1280x480" />
+                <header>
+                    <time>07/02/2024</time>
+                </header>
+                <h3>Semana de Tecnologia na Shopee: celulares, eletroportáteis, itens inteligentes e mais com até 70% off</h3>
+                <p>
+                    Para você que está em busca de um novo smartphone ou de itens inteligentes para automatizar seu lar, a Shopee preparou uma seleção de ofertas irresistíveis para aproveitar em sua Semana de Tecnologia.
+                    Trazendo uma variedade de ofertas em produtos de sucesso, marcas como Samsung, Mondial, Realme e LG, se fazem presentes com até 70% de desconto. 
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+        </div>
+    </section>
 </body>
 </html>
